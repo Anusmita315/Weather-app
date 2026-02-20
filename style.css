@@ -1,0 +1,40 @@
+body{
+    font-family:Arial;
+    background:linear-gradient(135deg,#5f9cff,#7ee8fa);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+    color:white;
+    }
+    
+    .card{
+    background:rgba(0,0,0,0.25);
+    padding:25px;
+    border-radius:18px;
+    text-align:center;
+    width:320px;
+    }
+    
+    input{
+    padding:10px;
+    width:80%;
+    border:none;
+    border-radius:8px;
+    margin:10px;
+    }
+    
+    button{
+    padding:10px 15px;
+    border:none;
+    border-radius:8px;
+    background:white;
+    color:#333;
+    cursor:pointer;
+    }
+    
+    .temp{
+    font-size:40px;
+    margin:10px;
+    }

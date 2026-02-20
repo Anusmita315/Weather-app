@@ -1,11 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather App</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+<div class="card">
+<h2>Weather App</h2>
+
+<input id="city" placeholder="Enter city name">
+<br>
+<button onclick="getWeather()">Search</button>
+
+<h3 id="place"></h3>
+<div class="temp" id="temp"></div>
+<div id="wind"></div>
+<div id="time"></div>
+
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
